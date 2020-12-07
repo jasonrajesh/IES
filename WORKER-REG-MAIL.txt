@@ -1,0 +1,18 @@
+<br/>Hi  {FNAME} {LNAME},
+<br/>
+
+Congractulations. <br/>Your registration successful as CASE WORKER<br/>
+
+<br/>Use below details to login Application<br/>
+<br/>
+E-mail Address: {EMAIL}<br/>
+Password : {PWD}<br/>
+<br/>
+
+<a href='http://localhost:1010/'>
+
+Click here to login to Application</a> <br/>
+<br/>
+
+Thanks & Regards,<br/>
+Ashok IT.<br/>

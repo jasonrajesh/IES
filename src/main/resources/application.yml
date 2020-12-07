@@ -1,0 +1,30 @@
+server:
+  port: 1010
+spring:
+  datasource:
+    username: system
+    password: oracle
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+    hibernate:
+      ddl-auto: update
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: jasonrajesh@gmail.com
+    password: rajesh@007
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+          auth: true
